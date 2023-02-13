@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RestauranteX</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="root" style="height: 100vh">
+      <div class="Flex1">
+        
+        <div class="Flex2">
+          <div class="Flex4">
+            <img
+              class="Image2"
+              src="./assets/logo.svg"
+              alt="No preview available"
+            />
+          </div>
+          <div class="Flex138">
+            <a class="a1" href="/Home.html">Home</a>
+            <a class="a2" href="/Contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div class="Flex3">
+          <button class="Button1" fdprocessedid="mn2od9">Order online</button>
+          <button class="Button2" fdprocessedid="4swfyk">Reservate</button>
+        </div>
+
+      </div>
+
+      <div class="Flex90">
+        <div class="Flex91">
+          <div class="TextBox105">Book your table now</div>
+          <div class="TextBox106">
+            Please fill the given form in order to book your table, Thank You!
+          </div>
+          <div class="Flex29-2">
+            <div class="TextBox36">Come and visit us</div>
+            <div class="Flex">
+              <img class="Image"
+                src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3a1718503bfe60f49_location-icon-restaurante-x-template.svg"
+                alt="No preview available" />
+              <div class="TextBox38">
+                Mumbai
+              </div>
+            </div>
+            <div class="Flex">
+              <img class="Image"
+                src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c36165d583fe91702b_phone-icon-restaurante-x-template.svg"
+                alt="No preview available" />
+              <div class="TextBox43">1234567890</div>
+            </div>
+            <div class="Flex">
+              <img class="Image"
+                src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3400864a9087440a4_email-icon-restaurante-x-template.svg"
+                alt="No preview available" />
+              <div class="TextBox40">
+                sumanyadav051608@gmail.com
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="#" class="Flex92" onsubmit="return(validateForm());" name="myForm">
+          <div class="Flex98">
+            <div class="Flex99">
+              <div class="Flex100">
+                <div class="TextBox113">Name</div>
+                <input
+                  class="Input"
+                  placeholder="Ex. Suman Yadav"
+                  name="name"
+                  type="text"
+                  id="name"
+                   required
+                />
+              </div>
+              <div class="Flex101">
+                <div class="TextBox114">Email Address</div>
+                <input
+                  class="Input"
+                  placeholder="Ex. example@email.com"
+                  name="email"
+                  type="email"
+                   required
+                />
+              </div>
+            </div>
+            <div class="Flex104">
+              <div class="Flex103">
+                <div class="TextBox116">Phone</div>
+                <input
+                  class="Input"
+                  type="tel"
+                  pattern="[0-9]{10}"
+                  placeholder="Ex. 1234567890"
+                  name="number" 
+                   required
+                />
+              </div>
+              <div class="Flex102">
+                <div class="TextBox115">Location</div>
+                <input
+                  class="Input"
+                  type="text"
+                  placeholder="Ex. Mumbai"
+                  name="Location"
+                  required
+                />
+              </div>
+            </div>
+            <div class="Flex107">
+              <div class="Flex106">
+                <div class="TextBox118">Date</div>
+                <input
+                  class="Input"
+                  type="date"
+                  placeholder="Day and month"
+                  name="date"
+                  required
+                />
+              </div>
+              <div class="Flex105">
+                <div class="TextBox117">Schedule</div>
+                <input
+                  class="Input"
+                  type="time"
+                  placeholder="Ex. 2:00PM"
+                  name="schedule"
+                  required
+                />
+              </div>
+            </div>
+            <div class="Flex108">
+              <div class="TextBox120">Add a note</div>
+              <input
+                class="Input1"
+                type="text"
+                placeholder="Do you have any note for us ?"
+                name="note"
+                required
+              />
+            </div>
+            
+            <button type="submit" class="Button21"  >Book a table</button>
+            
+          </div>
+        </form>
+      </div>
+
+      <div class="footer">
+        <span class="creator">Created by SumanYadav</span><br />
+        <span class="copyright">Copyright © <span id="year"> </span> | All rights
+          reserverd</span>
+      </div>
+    </div>
+
+    
+  <script src="script.js"></script>
+  </body>
+</html>
